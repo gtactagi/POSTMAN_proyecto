@@ -1,0 +1,20 @@
+1.- Instalar node.js desde https://nodejs.org/en
+
+2.- Abrir símbolo del sistema y ejecutar el comando npm install -g Newman, luego ejecutar Newman -v para chequear la versión isntalada
+
+3.-Ejecutar en consola: newman run C:\Users\gerot\OneDrive\Desktop\export-withtest para el archivo export-withtest exportado desde la colección creada en Postman. Aquí se vera en consola la colección con los resultados de los request.
+
+4.- Para obtener un reporte mas visual y mas "amigable" instalar HtmlExtra con la ejecución del comando
+npm install -g newman-reporter-htmlextra
+
+5.- Por ultimo ejecutar newman run C:\Users\gerot\OneDrive\Desktop\export-withtest -r htmlextra --reporter-htmlextra-export "C:\U
+sers\gerot\OneDrive\Desktop\my_report11.html", para que se genere un reporte HTML con el nombre my_report11( poner nombre que desee) en la ruta insertada, en este caso el escritorio.
+
+
+
+
+
+
+
+
+
